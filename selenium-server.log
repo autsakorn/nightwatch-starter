@@ -1,0 +1,18 @@
+15:26:03.926 INFO - Selenium build info: version: '3.9.0', revision: '698b3178f0'
+15:26:03.927 INFO - Launching a standalone Selenium Server on port 4444
+2019-03-27 15:26:04.069:INFO::main: Logging initialized @422ms to org.seleniumhq.jetty9.util.log.StdErrLog
+2019-03-27 15:26:04.176:INFO:osjs.Server:main: jetty-9.4.7.v20170914, build timestamp: 2017-11-22T04:27:37+07:00, git hash: 82b8fb23f757335bb3329d540ce37a2a2615f0a8
+2019-03-27 15:26:04.203:WARN:osjs.SecurityHandler:main: ServletContext@o.s.j.s.ServletContextHandler@2a54a73f{/,null,STARTING} has uncovered http methods for path: /
+2019-03-27 15:26:04.208:INFO:osjsh.ContextHandler:main: Started o.s.j.s.ServletContextHandler@2a54a73f{/,null,AVAILABLE}
+2019-03-27 15:26:04.235:INFO:osjs.AbstractConnector:main: Started ServerConnector@7d2898ec{HTTP/1.1,[http/1.1]}{0.0.0.0:4444}
+2019-03-27 15:26:04.236:INFO:osjs.Server:main: Started @589ms
+15:26:04.236 INFO - Selenium Server is up and running on port 4444
+2019-03-27 15:26:04.598:INFO:osjshC.ROOT:qtp257608164-15: org.openqa.selenium.remote.server.WebDriverServlet-3943a2be: Initialising WebDriverServlet
+15:26:04.627 INFO - Found handler: org.openqa.selenium.remote.server.commandhandler.BeginSession@aeb2559
+15:26:04.630 INFO - /session: Executing POST on /session (handler: BeginSession)
+15:26:04.680 INFO - Capabilities are: Capabilities {acceptSslCerts: true, browserName: chrome, chromeOptions: {args: [disable-infobars]}, marionette: true, name: Welcome}
+15:26:04.681 INFO - Capabilities {acceptSslCerts: true, browserName: chrome, chromeOptions: {args: [disable-infobars]}, marionette: true, name: Welcome} matched class org.openqa.selenium.remote.server.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
+Starting ChromeDriver 72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38) on port 29021
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+15:26:05.866 INFO - Detected dialect: OSS
